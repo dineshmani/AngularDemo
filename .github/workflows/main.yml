@@ -24,6 +24,8 @@ jobs:
 
 #       - name: Tests
 #         run: npm run test
+      -name: install
+       run: npm install node-sass
 
       - name: Build
         run: npm run build
