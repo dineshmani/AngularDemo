@@ -22,11 +22,11 @@ jobs:
 #       - name: Lint
 #         run: npm run lint
 
-#       - name: Tests
-#         run: ng test
+      - name: Tests
+        run: npm run test
 
       - name: Build
-        run: ng build --prod
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
