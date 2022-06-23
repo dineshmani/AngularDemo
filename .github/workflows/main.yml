@@ -22,8 +22,8 @@ jobs:
 #       - name: Lint
 #         run: npm run lint
 
-      - name: Tests
-        run: ng test
+#       - name: Tests
+#         run: ng test
 
       - name: Build
         run: ng build --prod
