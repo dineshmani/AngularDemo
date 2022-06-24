@@ -13,7 +13,7 @@ jobs:
       - name: Set up node.js
         uses: actions/setup-node@v3.3.0
         with:
-          node-version: 12.x
+          node-version: 14.x
           cache: 'npm'
 
       - name: Install dependencies
@@ -22,11 +22,8 @@ jobs:
 #       - name: Lint
 #         run: npm run lint
 
-#       - name: Tests
-#         run: npm run test
-
-      - name: install
-        run: npm install
+      - name: Tests
+        run: npm run test
 
       - name: Build
         run: npm run build
